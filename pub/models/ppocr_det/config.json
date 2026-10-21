@@ -1,0 +1,1 @@
+{ "model_type": "ppocr_det", "_comment": "OpenCV Zoo text_detection_cn_ppocrv3_2023may.onnx（PaddleOCR PP-OCRv3 の文字の場所の検出・Apache-2.0）。入力 1x3xHxW（BGR・ImageNet の平均と分散で正規化、H と W は 32 の倍数）。出力 1x1xHxW（文字らしさ）" }

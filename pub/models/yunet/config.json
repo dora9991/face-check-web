@@ -1,0 +1,1 @@
+{ "model_type": "yunet", "_comment": "OpenCV Zoo face_detection_yunet_2023mar.onnx（MIT）。入力 1x3xHxW（BGR・0〜255、H と W は 32 の倍数）。出力 cls/obj/bbox/kps × 8/16/32" }

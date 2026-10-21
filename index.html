@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>アーカイブ顔チェック</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='6' y='6' width='52' height='52' rx='12' fill='%235b8cff'/%3E%3Ccircle cx='32' cy='28' r='11' fill='white'/%3E%3Crect x='22' y='42' width='20' height='9' rx='4' fill='white'/%3E%3C/svg%3E">
+<style>
+  html, body { margin: 0; background: #0f1218; color: #e9ecf2; font: 15px/1.7 -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", Meiryo, sans-serif; }
+  .gate { max-width: 600px; margin: 64px auto; padding: 0 20px; }
+  .gate h1 { font-size: 22px; margin: 0 0 12px; display: flex; align-items: center; gap: 10px; }
+  .gate h1 svg { width: 30px; height: 30px; }
+  .gate p, .gate li { color: #c9cfdb; }
+  .gate .card { background: #171b24; border: 1px solid #2a3140; border-radius: 12px; padding: 20px 22px; margin-top: 16px; }
+  .gate input { width: 100%; box-sizing: border-box; padding: 11px 12px; font-size: 16px; border-radius: 8px; border: 1px solid #3a4356; background: #0f1218; color: #e9ecf2; }
+  .gate button { margin-top: 12px; padding: 10px 18px; font-size: 15px; border-radius: 8px; border: 0; background: #5b8cff; color: #fff; cursor: pointer; }
+  .gate button.sub { background: #2a3140; }
+  .gate .err { color: #ffb3b6; margin-top: 8px; min-height: 1.5em; }
+  .gate .muted { color: #8b93a5; font-size: 13px; }
+  .gate a { color: #9db8ff; }
+  .gate code { background: #0f1218; padding: 2px 6px; border-radius: 5px; word-break: break-all; }
+</style>
+<script>window.FC_LOCK={"salt":"pIIFVb4CiYrGFwfiPVlM7Q==","iter":600000,"check":"bD9/4km63pKQdNsOssmPa7rZYQ5VCJPN6uWqo+CMcJWo+CKyaBRIyI8="};</script>
+</head>
+<body>
+<div id="app"><div class="gate"><p class="muted">読み込んでいます…</p></div></div>
+<div id="modalRoot"></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<input type="file" id="fileInput" accept="video/*,.mp4,.mov,.m4v" hidden>
+<script type="module" src="boot.js"></script>
+</body>
+</html>

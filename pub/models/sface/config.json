@@ -1,0 +1,1 @@
+{ "model_type": "sface", "architectures": ["SFace"], "_comment": "OpenCV Zoo の face_recognition_sface_2021dec.onnx（MobileFaceNet / SFace、Apache-2.0）。入力 1x3x112x112（RGB・0〜255）、出力 128 次元" }
